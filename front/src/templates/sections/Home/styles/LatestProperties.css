@@ -1,0 +1,16 @@
+.card,
+.checkAll {
+	transition: 0.2s ease-out;
+}
+
+.card:hover,
+.checkAll:hover {
+	transform: scale(1.05);
+}
+
+#searchSection,
+.searchImage {
+	min-height: 250px;
+	height: auto;
+	width: 100%;
+}

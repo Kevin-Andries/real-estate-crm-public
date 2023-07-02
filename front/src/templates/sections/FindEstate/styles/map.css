@@ -1,0 +1,37 @@
+#map {
+	height: 100%;
+}
+
+.info-window-image-container {
+	width: 300px;
+	height: 250px;
+	margin: 0 15px;
+}
+
+.info-window-image-container > img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+#transitioning {
+	-webkit-transition: all 0.5s 0s;
+	transition: all 0.5s 0s;
+}
+
+/* Overwriting Google Card Default Styling */
+.gm-style-iw {
+	padding: 0 !important;
+}
+
+.gm-ui-hover-effect {
+	width: 40px !important;
+	height: 40px !important;
+	top: -4px !important;
+	right: 2px !important;
+}
+
+.gm-ui-hover-effect > img {
+	width: 30px !important;
+	height: 30px !important;
+}

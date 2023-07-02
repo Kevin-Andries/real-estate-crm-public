@@ -1,0 +1,148 @@
+const mockData = [
+	{
+		images: [
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Amazing property with view",
+		price: "290.000$",
+		address: "Oxford Street",
+		city: "London",
+		country: "United Kingdom",
+		size: 150,
+		isNew: true,
+		bath: 2,
+		bed: 3,
+		id: 0,
+		online: true,
+		position: {
+			lat: 51.507351,
+			lng: -0.127758,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+	{
+		images: [
+			"/images/apartmentCard1.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Casita with rooftop",
+		price: "450.000$",
+		address: "Calle de los pajaros",
+		city: "Barcelona",
+		country: "Spain",
+		size: 120,
+		isNew: true,
+		bath: 1,
+		bed: 2,
+		id: 1,
+		online: false,
+		position: {
+			lat: 41.385063,
+			lng: 2.173404,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+	{
+		images: [
+			"/images/introPicture2.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Classical house",
+		price: "390.000$",
+		address: "Rue Ernest lemeurt",
+		city: "Paris",
+		country: "France",
+		size: 120,
+		isNew: false,
+		bath: 2,
+		bed: 4,
+		id: 2,
+		online: true,
+		position: {
+			lat: 48.856613,
+			lng: 2.352222,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+	{
+		images: [
+			"/images/introPicture3.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Amazing property with view",
+		price: "325.000$",
+		address: "Tabanan",
+		city: "Bali",
+		country: "Indonesia",
+		size: 100,
+		isNew: true,
+		bath: 2,
+		bed: 5,
+		id: 3,
+		online: true,
+		position: {
+			lat: -8.378638,
+			lng: 115.071475,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+	{
+		images: [
+			"/images/introPicture4.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Amazing property with view",
+		price: "590.000$",
+		address: "Pulaulau 222",
+		city: "Denpasar",
+		country: "Indonesia",
+		size: 190,
+		isNew: false,
+		bath: 3,
+		bed: 6,
+		id: 4,
+		online: false,
+		position: {
+			lat: -8.663845,
+			lng: 115.235015,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+	{
+		images: [
+			"/images/introPicture5.jpg",
+			"/images/introPicture.jpg",
+			"/images/introPicture.jpg",
+		],
+		title: "Amazing property with view",
+		price: "490.000$",
+		address: "Tidoki street",
+		city: "Vigan",
+		country: "Philippines",
+		size: 250,
+		isNew: true,
+		bath: 2,
+		bed: 3,
+		id: 5,
+		online: true,
+		position: {
+			lat: 16.467695,
+			lng: 120.818606,
+		},
+		description:
+			"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+	},
+];
+
+export default mockData;

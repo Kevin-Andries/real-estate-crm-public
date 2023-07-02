@@ -1,0 +1,39 @@
+version: "3.8"
+
+services:
+    front:
+        build: ./front
+        ports:
+            - 3000:3000
+        volumes:
+            - ./front:/app
+    back:
+        build: ./back
+        ports:
+            - 8000:8000
+        volumes:
+            - ./back:/app
+        depends_on:
+            - db
+            - redis
+    db:
+        image: postgres:14.0
+        ports:
+            - 5432:5432
+        environment:
+            - POSTGRES_USER=postgres
+            - POSTGRES_PASSWORD=postgres
+            - POSTGRES_DB=real-estate-crm
+        volumes:
+            - real-estate-crm:/data/db
+        logging:
+            driver: none
+    redis:
+        image: redis:6.2
+        ports:
+            - 6379:6379
+        # volumes:
+        #     - real-estate-crm:/data/redis
+
+volumes:
+    real-estate-crm:

@@ -1,0 +1,130 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	.btn {
+		@apply whitespace-nowrap inline-flex items-center justify-center px-6 py-2 border border-transparent rounded-md shadow-sm text-base font-medium bg-lightBlue hover:bg-darkerBlue50 text-white cursor-pointer;
+	}
+	.btn-sm {
+		@apply whitespace-nowrap inline-flex items-center justify-center px-4 py-1 border border-transparent rounded-md shadow-sm text-sm font-medium bg-lightBlue hover:bg-darkerBlue50 text-white cursor-pointer;
+	}
+	.navigationItems {
+		@apply whitespace-nowrap text-base font-medium text-black mx-4 hover:text-lightBlue hover:font-semibold dark:text-zinc-200;
+	}
+	.inputField {
+		@apply bg-none border border-gray-300 text-gray-900 text-base rounded-lg focus:ring-blue-100 focus:border-gray-300 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500;
+	}
+	.inputLabel {
+		@apply block mb-2 text-base font-medium text-gray-900 dark:text-gray-300 text-left;
+	}
+	.formContainer {
+		@apply flex flex-col border-2 shadow-xl dark:border-gray-500 dark:shadow-gray-500 dark:shadow-md px-4 md:px-10 lg:px-12 py-4 sm:py-6 md:py-8 w-full sm:w-10/12 md:w-7/12 mx-auto rounded-lg;
+	}
+	.forContainerGrid {
+		@apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-x-2 md:gap-x-4 gap-y-4 w-full mx-auto;
+	}
+	.card {
+		@apply bg-white border-2 rounded-sm shadow-xl flex flex-col relative cursor-pointer;
+	}
+
+	h1 {
+		@apply text-xl sm:text-2xl md:text-4xl lg:text-6xl leading-10;
+	}
+
+	h2 {
+		@apply text-lg sm:text-xl md:text-3xl lg:text-5xl leading-10;
+	}
+
+	h3 {
+		@apply text-lg sm:text-xl md:text-2xl lg:text-3xl leading-10;
+	}
+}
+
+#app {
+	font-family: Avenir, Helvetica, Arial, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-align: center;
+	color: #2c3e50;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* input:valid {
+  border-color: green;
+} */
+/*
+input:invalid {
+  border-color: red;
+} */
+input[aria-invalid="true"] {
+	border-color: red;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Libre Franklin", "Playfair Display", serif;
+	color: #017efa;
+}
+
+h1 {
+	font-size: 36px;
+	color: #017efa;
+	font-family: "Libre Franklin", serif;
+}
+
+h2 {
+	font-size: 30px;
+	color: #017efa;
+	font-family: "Libre Franklin", serif;
+}
+
+h3 {
+	font-size: 24px;
+	color: #017efa;
+	font-family: "Libre Franklin", serif;
+}
+
+h4 {
+	font-size: 20px;
+	color: #017efa;
+	font-family: Helvetica, serif;
+}
+
+h5 {
+	font-size: 18px;
+	color: #017efa;
+	font-family: Helvetica, serif;
+}
+
+h6 {
+	font-size: 14px;
+	color: #017efa;
+	font-family: Helvetica, serif;
+}
+
+p,
+span,
+a {
+	font-family: "Nunito Sans", sans-serif;
+}
+
+*:focus {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+.companyName {
+	font-family: "Barlow Semi Condensed", sans-serif;
+}

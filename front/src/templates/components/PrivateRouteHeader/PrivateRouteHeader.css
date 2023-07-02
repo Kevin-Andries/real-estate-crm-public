@@ -1,0 +1,70 @@
+::-webkit-scrollbar {
+	display: none;
+}
+
+.itemColor {
+	width: 15px;
+	border-radius: 10px;
+	background: rgb(225, 225, 228);
+	height: 80%;
+	left: -30px;
+	top: 10%;
+	position: absolute;
+}
+.leftMenuLightBlue {
+	background: rgba(81, 203, 255, 0.25);
+}
+.goPremium {
+	height: 80px;
+	width: 80px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1023px) {
+	#leftMenuContainer {
+		min-width: 220px;
+		max-width: 240px;
+	}
+
+	.menu-items {
+		max-width: 180px;
+	}
+}
+
+@media screen and (min-width: 1024px) {
+	#leftMenuContainer {
+		min-width: 270px;
+		max-width: 290px;
+	}
+
+	.menu-items {
+		max-width: 220px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	#leftMenuContainer {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	svg {
+		width: 25px !important;
+		height: 25px !important;
+	}
+	.leftMenuLightBlue {
+		padding-left: 0.8rem !important;
+		padding-right: 0.8rem !important;
+	}
+}
+
+@media screen and (max-width: 374px) {
+	svg {
+		width: 22px !important;
+		height: 22px !important;
+	}
+	.leftMenuLightBlue {
+		padding-left: 0.7rem !important;
+		padding-right: 0.7rem !important;
+	}
+}
