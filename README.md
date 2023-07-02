@@ -1,3 +1,5 @@
+/!\ The development of this project is stopped /!\
+
 # Easimmo - Real Estate CRM
 
 You need Docker engine installed.
